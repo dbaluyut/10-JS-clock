@@ -9,5 +9,9 @@
 * {
   color: white;
   font-family: "Mrs Sheppards";
-  font-size: 40px;
+  font-size: 100px;
+}
+
+h1 {
+  margin: 50% 0;
 }

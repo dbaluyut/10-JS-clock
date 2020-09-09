@@ -1,4 +1,4 @@
-test3 = setInterval(() => {
+test3 = setInterval(function () {
   let today = new Date()
   let h = today.getHours()
   let m = today.getMinutes()
@@ -6,6 +6,7 @@ test3 = setInterval(() => {
   m = checkTime(m)
   s = checkTime(s)
   h = militaryTime(h)
+  h = checkTime(h)
   document.getElementById("clock").innerHTML = `${h} : ${m} : ${s}`
 }, 1000)
 
@@ -22,6 +23,25 @@ function militaryTime(a) {
   }
   return a
 }
+
+rgb = [0, 1, 2]
+rgb.map((item) => item + 2)
+
+// let r = 0
+// let g = 0
+// let b = 0
+// for (r = 0; r <= 255; r++) {
+//   for (g = 0; g <= 255; g++) {
+//     for (b = 0; b <= 255; b++) {
+//       console.log(r, g, b)
+//     }
+//   }
+// }
+
+// let timerId = setInterval(() => alert("tick"), 2000)
+
+//make interval that +5 every second on array
+
 // SOL1
 
 // const today = new Date()
@@ -60,4 +80,4 @@ function militaryTime(a) {
 //     i = "0" + i
 //   }
 //   return i
-// }
+//
