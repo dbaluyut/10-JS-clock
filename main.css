@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+#bg {
+  background-color: rgb(0, 0, 0);
+}
+
+* {
+  color: white;
+  font-family: "Mrs Sheppards";
+  font-size: 40px;
+}
